@@ -10,6 +10,32 @@
     {
       "src": "/(.*)",
       "dest": "app.js"
+    },
+    {
+      "src": "/apps/(.*)",
+      "dest": "app.js"
+    },
+  
+  {
+      "src": "/apps/openai-funcs/(.*)",
+      "dest": "app.js"
+    
+},
+    {
+      "src": "/apps/openai-tts/(.*)",
+      "dest": "app.js"
+    },
+    {
+      "src": "/apps/openai-stt/(.*)",
+      "dest": "app.js"
+    },
+    {
+      "src": "/apps/openai-moderation/(.*)",
+      "dest": "app.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "app.js"
     }
   ]
 }
