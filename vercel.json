@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "app.js",
-      "use": "@now/node"
+      "use": "@now"
     }
   ],
   "routes": [
@@ -34,7 +34,15 @@
       "dest": "app.js"
     },
     {
-      "src": "/(.*)",
+      "src": "/apps/openai-visual/(.*)",
+      "dest": "app.js"
+    },
+    {
+      "src": "/apps/openai-fewshot/(.*)",
+      "dest": "app.js"
+    },
+    {
+      "src": "/apps/openai-chat/(.*)",
       "dest": "app.js"
     }
   ]
